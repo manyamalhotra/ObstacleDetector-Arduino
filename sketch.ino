@@ -1,5 +1,5 @@
  /*
-HC-SR04 Ultrasonic Sensor with LCD dispaly
+HC-SR04 Ultrasonic Sensor with LCD display
 
 HC-SR04 Ultrasonic Sensor
   VCC to Arduino 5V
@@ -59,7 +59,7 @@ void loop()
   
   if(distance<20)
   {
-    tone(3, 250);   //Plays 250Hz tone i.e. Buzzer
+    tone(3, 250);   //Plays 250Hz tone via Buzzer
   }
   else
   {
